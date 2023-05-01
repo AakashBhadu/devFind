@@ -4,12 +4,6 @@
     "type": "object",
     "required": [
       "name",
-      "location",
-      "bio",
-      "avatar",
-      "portfolio",
-      "skills",
-      "social"
     ],
     "properties": {
       "name": {"type": "string"},
@@ -30,9 +24,6 @@
       "social": {
         "type": "object",
         "required": [
-          "GitHub",
-          "Twitter",
-          "LinkedIn"
         ],
         "properties": {
           "GitHub": {

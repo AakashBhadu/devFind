@@ -4,7 +4,7 @@ import json
 schema = {}
 profile_data = {}
 
-with open("scripts/validation.json") as _schema:
+with open("scripts/schema.json") as _schema:
   schema = json.load(_schema)
 
 with open("src/data/profile.json") as data:

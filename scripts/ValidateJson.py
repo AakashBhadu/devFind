@@ -19,4 +19,4 @@ for profile in profile_data:
   if profile["name"] in names:
     raise ValueError("already have profile of this name")
   else:
-    names.add()
+    names.add(profile["name"])

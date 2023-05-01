@@ -7,7 +7,7 @@ profile_data = {}
 with open("scripts/schema.json") as _schema:
   schema = json.load(_schema)
 
-with open("src/data/profile.json") as data:
+with open("src/data/Profile.json") as data:
   profile_data = json.load(data)
   
 # validating profile data according to schema

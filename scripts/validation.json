@@ -15,8 +15,14 @@
       "name": {"type": "string"},
       "location": {"type": "string"},
       "bio": {"type": "string"},
-      "avatar": {"type": "string", "format": "uri"},
-      "portfolio": {"type": "string", "format": "uri"},
+      "avatar": {
+        "type": "string", 
+        "format": "uri"
+      },
+      "portfolio": {
+        "type": "string", 
+        "format": "uri"
+      },
       "skills": {
         "type": "array",
         "items": {"type": "string"}
@@ -29,9 +35,18 @@
           "LinkedIn"
         ],
         "properties": {
-          "GitHub": {"type": "string", "format": "uri"},
-          "Twitter": {"type": "string", "format": "uri"},
-          "LinkedIn": {"type": "string", "format": "uri"}
+          "GitHub": {
+            "type": "string", 
+            "format": "uri"
+          },
+          "Twitter": {
+            "type": "string", 
+            "format": "uri"
+          },
+          "LinkedIn": {
+            "type": "string", 
+            "format": "uri"
+          }
         }
       }
     }

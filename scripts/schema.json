@@ -3,13 +3,7 @@
   "items": {
     "type": "object",
     "required": [
-      "name",
-      "location",
-      "bio",
-      "avatar",
-      "portfolio",
-      "skills",
-      "social"
+      "name"
     ],
     "properties": {
       "name": {"type": "string"},

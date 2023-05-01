@@ -25,7 +25,5 @@ jobs:
         run: |
           python -m pip install jsonschema
           python scripts/ValidateJson.py
-          if [ -n "${{ steps.validate.outputs.error }}" ]; then
-            echo "Error: ${{ steps.validate.outputs.error }}"
-            exit 1
-          fi
+          output:
+            {{ steps.validate_json.outputs.errors }}

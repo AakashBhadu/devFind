@@ -3,10 +3,10 @@ name: JSON check
 on:
   push:
     paths:
-      - "src/*.json"
+      - "**.json"
   pull_request:
     paths:
-      - "src/*.json"
+      - "**.json"
 
 jobs:
   test:
